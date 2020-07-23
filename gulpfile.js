@@ -1,7 +1,7 @@
 const   gulp = require('gulp'),
         sass = require('gulp-sass'), //compile SASS to CSS
         browserSync = require('browser-sync'); //auto-reload of page by Browser-sync
-        uglify = require('gulp-uglify');
+        uglify = require('gulp-uglify-es').default;
         concat = require('gulp-concat');
         rename = require('gulp-rename');
 
